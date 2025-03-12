@@ -5,9 +5,26 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #8b0000;
   overflow-x: hidden;
   background: linear-gradient(#8b0000, #4c1c42);
+}
+
+.nav {
+  flex-direction: row;
+}
+
+.header-0 {
+  width: 100%;
+  text-align: right;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 8px;
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .header {
@@ -56,7 +73,8 @@
 }
 
 .header2 {
-  font-size: 26px;
+  font-weight: bold;
+  font-size: 40px;
   color: white;
   margin-top: 10px;
 }

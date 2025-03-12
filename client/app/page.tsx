@@ -4,7 +4,10 @@ import "./styles.css";
 export default function Home() {
   return (
     <div className="container">
-      <div className="header">Pokedex</div>
+      <div className="nav">
+        <div className="header">Pokedex</div>
+        <div className="header-0">≡</div>
+      </div>
 
       <div className="card">
         <div className="poke-image">
